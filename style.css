@@ -10,6 +10,10 @@ body {
     margin: 0;
     width: 900px;
     height: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
 }
 
 
@@ -59,7 +63,7 @@ p{
 }
 
 
-img {
+.herofoto {
 
 width:  50%;
 height: 80%;
@@ -71,4 +75,53 @@ align-self: flex-end;
     display: flex;
     flex-direction: column;
     padding-right: 10px;
+}
+
+
+.signup {
+
+    width: 100px;
+    height: 27px;
+}
+
+
+
+
+.second {
+    max-width: 900px;
+
+    padding: 30px 125px 70px;
+    align-items: center;
+}
+.fotos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.foto1, .foto2, .foto3, .foto4 {
+ height: 100%;
+ width: 100%;
+
+  object-fit: cover;
+
+}
+
+.underfoto {
+
+    color: black;
+    font-size: 16px;
+
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    align-self: center;
+
+
 }
