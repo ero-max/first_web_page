@@ -1,127 +1,125 @@
 * {
-    box-sizing: border-box;
-
-
-
-}
-
-body {
-    font-family:roboto;
-    margin: 0;
-    width: 900px;
-    height: 1100px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    
+   
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
 
 }
+ 
 
 
 
 
-
-
-
-
-.hero {
+.awesome {
     display: flex;
-    flex-direction:column;
-padding: 0px 100px 70px;
+    gap: 100px;
+    padding: 80px 200px 70px;
     font-size: 18px;
     color: #E5E7EB;
-
-
-
+    background-color: #1f2937;
 }
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-
+    padding: 20px 200px;
+    background-color: #1f2937;
 }
 
 a { font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-
-
+    display: inline-block;
+    padding: 0 23px;
+    transition: all 0.3s ease 0s;
 }
 
+a :hover{
+    color:#104294;
+}
 
-.hero, footer {
+footer {
     background-color: #1f2937;
 }
 
-p{
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
+    cursor: pointer;
 }
-.awesome {
+
+.holderforfoto {
     display: flex;
-    flex-direction: row;
-    flex-wrap:nowrap;
+    justify-content: flex-end;
+    padding: 20px 20px;
+    }
+ 
+    .herofoto {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
 }
-
-
-.herofoto {
-
-width:  50%;
-height: 80%;
-align-self: flex-end;
-}
-
 
 .texted {
     display: flex;
     flex-direction: column;
-    padding-right: 10px;
+    padding: 20px 20px 20px 0;
+    justify-content: space-between;
 }
 
 
 .signup {
-
+    background-color:#3882f6;
     width: 100px;
-    height: 27px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px black;
+    cursor: pointer;
+    color: #F9FAF8;
 }
 
 
 
 
 .second {
-    max-width: 900px;
-
-    padding: 30px 125px 70px;
+    padding: 38px 280px 70px;
     align-items: center;
 }
+
 .fotos {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between ;
 }
 
 
 
-.foto1, .foto2, .foto3, .foto4 {
- height: 100%;
- width: 100%;
-
-  object-fit: cover;
-
+.foto {
+max-width:20%;
+ padding: 9px;
 }
 
 .underfoto {
-
     color: black;
     font-size: 16px;
-
 }
 
 
 h3 {
     font-size: 30px;
     font-weight: bold;
-    margin: 0 0 30px;
-    align-self: center;
+    margin: 0 0 40px;
+    align-self:flex-end;
+    justify-self: center;
+}
 
 
+.foto
+img {
+    border: 3px blue;
+    border-radius: 12px; 
 }
