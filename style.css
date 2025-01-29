@@ -123,3 +123,38 @@ img {
     border: 3px blue;
     border-radius: 12px; 
 }
+
+
+.third {
+    background-color: #e5e7e5;
+    
+    color: #1f2937;
+    padding: 70px 285px ;
+
+
+}
+
+
+.quote1 {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: left;
+}
+
+
+.quote2 {
+font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+.fourth {
+    margin: 70px 200px;
+    background-color: #3882f6;
+    padding: 35px 70px;
+    display: flex;
+    flex-direction: row;
+    
+}
