@@ -156,5 +156,35 @@ font-size: 20px;
     padding: 35px 70px;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    border-radius: 8px;
+    color: #F9FAF8;
+
+}
+#signup2 {
+width: 100px;
+color: #F9FAF8;
+
+margin-left: 100px;
+border-radius: 8px;
+margin-top: 10px;
+background-color: #3882f6;
+
+border: 2px solid #F9FAF8;
+
+}
+
+ .action {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.paragrafs {
+    justify-content: space-between;
+
+}
+.calling {
+    font-size: 16px;
+    margin-top: 8px;
+
 }
