@@ -1,16 +1,17 @@
 * {
-    
-   
    box-sizing: border-box;
    font-family: "Roboto", sans-serif;
    margin: 0;
    padding: 0;
-
 }
  
-
-
-
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: #1f2937;
+}
 
 .awesome {
     display: flex;
@@ -18,14 +19,6 @@
     padding: 80px 200px 70px;
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #1f2937;
-}
-
-.header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 200px;
     background-color: #1f2937;
 }
 
@@ -37,19 +30,15 @@ a { font-size: 18px;
     transition: all 0.3s ease 0s;
 }
 
-a :hover{
-    color:#104294;
+a:hover {
+     color:#104294;
 }
 
-footer {
-    background-color: #1f2937;
-}
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
-    cursor: pointer;
 }
 
 .holderforfoto {
@@ -58,7 +47,7 @@ footer {
     padding: 20px 20px;
     }
  
-    .herofoto {
+.herofoto {
     height: 200px;
     width: 400px;
     object-fit: cover;
@@ -71,7 +60,6 @@ footer {
     justify-content: space-between;
 }
 
-
 .signup {
     background-color:#3882f6;
     width: 100px;
@@ -81,9 +69,6 @@ footer {
     cursor: pointer;
     color: #F9FAF8;
 }
-
-
-
 
 .second {
     padding: 38px 280px 70px;
@@ -96,8 +81,6 @@ footer {
     justify-content:space-between ;
 }
 
-
-
 .foto {
 max-width:20%;
  padding: 9px;
@@ -106,8 +89,8 @@ max-width:20%;
 .underfoto {
     color: black;
     font-size: 16px;
+    text-align: center;
 }
-
 
 h3 {
     font-size: 30px;
@@ -117,23 +100,17 @@ h3 {
     justify-self: center;
 }
 
-
 .foto
 img {
     border: 3px blue;
     border-radius: 12px; 
 }
 
-
 .third {
     background-color: #e5e7e5;
-    
     color: #1f2937;
     padding: 70px 285px ;
-
-
 }
-
 
 .quote1 {
     font-size: 36px;
@@ -142,12 +119,10 @@ img {
     text-align: left;
 }
 
-
 .quote2 {
 font-size: 20px;
     text-align: right;
     font-weight: bold;
-
 }
 
 .fourth {
@@ -164,14 +139,12 @@ font-size: 20px;
 #signup2 {
 width: 100px;
 color: #F9FAF8;
-
 margin-left: 100px;
 border-radius: 8px;
 margin-top: 10px;
 background-color: #3882f6;
-
 border: 2px solid #F9FAF8;
-
+cursor: pointer;
 }
 
  .action {
@@ -179,12 +152,25 @@ border: 2px solid #F9FAF8;
     text-align: left;
     font-weight: bold;
 }
+
 .paragrafs {
     justify-content: space-between;
-
 }
+
 .calling {
     font-size: 16px;
     margin-top: 8px;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+.signup:hover, #signup2:hover {
+background-color: #8fb4ec;
 }
