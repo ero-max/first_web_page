@@ -39,14 +39,9 @@ a:hover {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+    font-weight: bold;
 }
 
-.holderforfoto {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px 20px;
-    }
- 
 .herofoto {
     height: 200px;
     width: 400px;
@@ -137,6 +132,8 @@ font-size: 20px;
 
 }
 #signup2 {
+    height: 32px;
+    flex-shrink: 0;
 width: 100px;
 color: #F9FAF8;
 margin-left: 100px;
