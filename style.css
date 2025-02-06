@@ -116,8 +116,8 @@ img {
 
 .quote2 {
 font-size: 20px;
-    text-align: right;
-    font-weight: bold;
+text-align: right;
+font-weight: bold;
 }
 
 .fourth {
@@ -132,8 +132,8 @@ font-size: 20px;
 
 }
 #signup2 {
-    height: 32px;
-    flex-shrink: 0;
+height: 32px;
+flex-shrink: 0;
 width: 100px;
 color: #F9FAF8;
 margin-left: 100px;
